@@ -18,5 +18,5 @@ jobs:
     # Step 2: Build Docker image
     - name: Build Docker Image
       run: |
-        docker build -t my-image-name:latest .  
+        docker build -t dockerfile:latest .  
     # Build the Docker image locally in the GitHub Actions runner
